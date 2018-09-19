@@ -1,5 +1,5 @@
 <h2> Student Form </h2>
-<%= form_tag students_path %>
+<%= form_tag students_path do %>
   <%= text_feild_tag :first_name %>
   <%= text_feild_tag :last_name %>
   <%= submit_tag "Submit Student" %>
